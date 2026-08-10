@@ -1,7 +1,7 @@
 -- open source ( the orginal source got deleted )
 -- made by cat scripter
 print("this was made by cat scripter")
---// Fling Gui V14.0
+--// Fling Gui V15.0
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -1610,7 +1610,7 @@ local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbS
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Fling GUI",
-    Text = "version V14.0",
+    Text = "version V15.0 - cat_scripter",
     Icon = content,
     Duration = 7
 })
